@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		8F0772751DC2FDEF0061A640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0772741DC2FDEF0061A640 /* AppDelegate.swift */; };
-		8F0772771DC2FDEF0061A640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0772761DC2FDEF0061A640 /* ViewController.swift */; };
-		8F07727A1DC2FDEF0061A640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0772781DC2FDEF0061A640 /* Main.storyboard */; };
 		8F07727C1DC2FDEF0061A640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F07727B1DC2FDEF0061A640 /* Assets.xcassets */; };
 		8F07727F1DC2FDEF0061A640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F07727D1DC2FDEF0061A640 /* LaunchScreen.storyboard */; };
+		C4A394741DC3A03100594894 /* DailyForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A394731DC3A03100594894 /* DailyForecastViewController.swift */; };
+		C4FA40A31DC3CC36007615DB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40A21DC3CC36007615DB /* TabBarController.swift */; };
+		C4FA40A51DC3CCAC007615DB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40A41DC3CCAC007615DB /* TodayViewController.swift */; };
+		C4FA40A71DC3CCBF007615DB /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40A61DC3CCBF007615DB /* DailyViewController.swift */; };
+		C4FA40A91DC3CCD0007615DB /* HourlyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40A81DC3CCD0007615DB /* HourlyTableViewController.swift */; };
+		C4FA40AB1DC3D5A5007615DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40AA1DC3D5A5007615DB /* ViewController.swift */; };
+		C4FA40B01DC3D704007615DB /* DarkSkyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40AC1DC3D704007615DB /* DarkSkyAPIClient.swift */; };
+		C4FA40B11DC3D704007615DB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40AD1DC3D704007615DB /* Data.swift */; };
+		C4FA40B21DC3D704007615DB /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40AE1DC3D704007615DB /* DataStore.swift */; };
+		C4FA40B31DC3D704007615DB /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40AF1DC3D704007615DB /* Secrets.swift */; };
+		C4FF7E501DC7C260000435E5 /* DailyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FF7E4F1DC7C260000435E5 /* DailyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F0772711DC2FDEF0061A640 /* niftyFlatironWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = niftyFlatironWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0772741DC2FDEF0061A640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F0772761DC2FDEF0061A640 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8F0772791DC2FDEF0061A640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F07727B1DC2FDEF0061A640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F07727E1DC2FDEF0061A640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F0772801DC2FDEF0061A640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A394731DC3A03100594894 /* DailyForecastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyForecastViewController.swift; sourceTree = "<group>"; };
+		C4FA40A21DC3CC36007615DB /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C4FA40A41DC3CCAC007615DB /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		C4FA40A61DC3CCBF007615DB /* DailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		C4FA40A81DC3CCD0007615DB /* HourlyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyTableViewController.swift; sourceTree = "<group>"; };
+		C4FA40AA1DC3D5A5007615DB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4FA40AC1DC3D704007615DB /* DarkSkyAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkSkyAPIClient.swift; sourceTree = "<group>"; };
+		C4FA40AD1DC3D704007615DB /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C4FA40AE1DC3D704007615DB /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		C4FA40AF1DC3D704007615DB /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		C4FF7E4F1DC7C260000435E5 /* DailyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +73,17 @@
 			isa = PBXGroup;
 			children = (
 				8F0772741DC2FDEF0061A640 /* AppDelegate.swift */,
-				8F0772761DC2FDEF0061A640 /* ViewController.swift */,
-				8F0772781DC2FDEF0061A640 /* Main.storyboard */,
+				C4FA40A21DC3CC36007615DB /* TabBarController.swift */,
+				C4FA40A41DC3CCAC007615DB /* TodayViewController.swift */,
+				C4FF7E4F1DC7C260000435E5 /* DailyTableViewController.swift */,
+				C4FA40A81DC3CCD0007615DB /* HourlyTableViewController.swift */,
+				C4FA40AC1DC3D704007615DB /* DarkSkyAPIClient.swift */,
+				C4FA40AD1DC3D704007615DB /* Data.swift */,
+				C4FA40AE1DC3D704007615DB /* DataStore.swift */,
+				C4FA40AF1DC3D704007615DB /* Secrets.swift */,
+				C4FA40AA1DC3D5A5007615DB /* ViewController.swift */,
+				C4FA40A61DC3CCBF007615DB /* DailyViewController.swift */,
+				C4A394731DC3A03100594894 /* DailyForecastViewController.swift */,
 				8F07727B1DC2FDEF0061A640 /* Assets.xcassets */,
 				8F07727D1DC2FDEF0061A640 /* LaunchScreen.storyboard */,
 				8F0772801DC2FDEF0061A640 /* Info.plist */,
@@ -96,7 +123,7 @@
 				TargetAttributes = {
 					8F0772701DC2FDEF0061A640 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = WNAGBXF4G9;
+						DevelopmentTeam = TWPE6ND5AF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,7 +153,6 @@
 			files = (
 				8F07727F1DC2FDEF0061A640 /* LaunchScreen.storyboard in Resources */,
 				8F07727C1DC2FDEF0061A640 /* Assets.xcassets in Resources */,
-				8F07727A1DC2FDEF0061A640 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +163,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F0772771DC2FDEF0061A640 /* ViewController.swift in Sources */,
+				C4FA40A91DC3CCD0007615DB /* HourlyTableViewController.swift in Sources */,
+				C4FA40A51DC3CCAC007615DB /* TodayViewController.swift in Sources */,
+				C4FA40A31DC3CC36007615DB /* TabBarController.swift in Sources */,
+				C4FA40B21DC3D704007615DB /* DataStore.swift in Sources */,
+				C4FA40B01DC3D704007615DB /* DarkSkyAPIClient.swift in Sources */,
 				8F0772751DC2FDEF0061A640 /* AppDelegate.swift in Sources */,
+				C4FA40AB1DC3D5A5007615DB /* ViewController.swift in Sources */,
+				C4A394741DC3A03100594894 /* DailyForecastViewController.swift in Sources */,
+				C4FA40B11DC3D704007615DB /* Data.swift in Sources */,
+				C4FA40A71DC3CCBF007615DB /* DailyViewController.swift in Sources */,
+				C4FA40B31DC3D704007615DB /* Secrets.swift in Sources */,
+				C4FF7E501DC7C260000435E5 /* DailyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8F0772781DC2FDEF0061A640 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F0772791DC2FDEF0061A640 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8F07727D1DC2FDEF0061A640 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,7 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WNAGBXF4G9;
+				DEVELOPMENT_TEAM = TWPE6ND5AF;
 				INFOPLIST_FILE = niftyFlatironWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johannkerr.niftyFlatironWeather;
@@ -274,7 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WNAGBXF4G9;
+				DEVELOPMENT_TEAM = TWPE6ND5AF;
 				INFOPLIST_FILE = niftyFlatironWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johannkerr.niftyFlatironWeather;
@@ -302,6 +330,7 @@
 				8F0772851DC2FDEF0061A640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
