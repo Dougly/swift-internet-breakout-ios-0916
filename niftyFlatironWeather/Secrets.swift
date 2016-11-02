@@ -8,5 +8,8 @@
 
 import Foundation
 
-let darkSkySecretKey = "8ef5fb25a7f71df9154c0da160e30f96"
+class Secrets {
+    static let darkSkySecretKey = "8ef5fb25a7f71df9154c0da160e30f96"
+
+}
 

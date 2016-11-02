@@ -9,7 +9,6 @@
 import Foundation
 
 class DarkSkyDataStore {
-  // create data singleton
   static let sharedInstance = DarkSkyDataStore()
   private init() {}
   

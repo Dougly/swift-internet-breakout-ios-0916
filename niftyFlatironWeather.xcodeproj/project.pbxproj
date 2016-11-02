@@ -10,14 +10,12 @@
 		8F0772751DC2FDEF0061A640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0772741DC2FDEF0061A640 /* AppDelegate.swift */; };
 		8F07727C1DC2FDEF0061A640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F07727B1DC2FDEF0061A640 /* Assets.xcassets */; };
 		8F07727F1DC2FDEF0061A640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F07727D1DC2FDEF0061A640 /* LaunchScreen.storyboard */; };
-		C4A394741DC3A03100594894 /* DailyForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A394731DC3A03100594894 /* DailyForecastViewController.swift */; };
 		C4FA40A31DC3CC36007615DB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40A21DC3CC36007615DB /* TabBarController.swift */; };
 		C4FA40A51DC3CCAC007615DB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40A41DC3CCAC007615DB /* TodayViewController.swift */; };
-		C4FA40A71DC3CCBF007615DB /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40A61DC3CCBF007615DB /* DailyViewController.swift */; };
 		C4FA40A91DC3CCD0007615DB /* HourlyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40A81DC3CCD0007615DB /* HourlyTableViewController.swift */; };
 		C4FA40AB1DC3D5A5007615DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40AA1DC3D5A5007615DB /* ViewController.swift */; };
 		C4FA40B01DC3D704007615DB /* DarkSkyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40AC1DC3D704007615DB /* DarkSkyAPIClient.swift */; };
-		C4FA40B11DC3D704007615DB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40AD1DC3D704007615DB /* Data.swift */; };
+		C4FA40B11DC3D704007615DB /* DataClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40AD1DC3D704007615DB /* DataClasses.swift */; };
 		C4FA40B21DC3D704007615DB /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40AE1DC3D704007615DB /* DataStore.swift */; };
 		C4FA40B31DC3D704007615DB /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA40AF1DC3D704007615DB /* Secrets.swift */; };
 		C4FF7E501DC7C260000435E5 /* DailyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FF7E4F1DC7C260000435E5 /* DailyTableViewController.swift */; };
@@ -29,14 +27,12 @@
 		8F07727B1DC2FDEF0061A640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F07727E1DC2FDEF0061A640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F0772801DC2FDEF0061A640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4A394731DC3A03100594894 /* DailyForecastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyForecastViewController.swift; sourceTree = "<group>"; };
 		C4FA40A21DC3CC36007615DB /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		C4FA40A41DC3CCAC007615DB /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
-		C4FA40A61DC3CCBF007615DB /* DailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
 		C4FA40A81DC3CCD0007615DB /* HourlyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyTableViewController.swift; sourceTree = "<group>"; };
 		C4FA40AA1DC3D5A5007615DB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4FA40AC1DC3D704007615DB /* DarkSkyAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkSkyAPIClient.swift; sourceTree = "<group>"; };
-		C4FA40AD1DC3D704007615DB /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C4FA40AD1DC3D704007615DB /* DataClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataClasses.swift; sourceTree = "<group>"; };
 		C4FA40AE1DC3D704007615DB /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		C4FA40AF1DC3D704007615DB /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		C4FF7E4F1DC7C260000435E5 /* DailyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyTableViewController.swift; sourceTree = "<group>"; };
@@ -78,12 +74,10 @@
 				C4FF7E4F1DC7C260000435E5 /* DailyTableViewController.swift */,
 				C4FA40A81DC3CCD0007615DB /* HourlyTableViewController.swift */,
 				C4FA40AC1DC3D704007615DB /* DarkSkyAPIClient.swift */,
-				C4FA40AD1DC3D704007615DB /* Data.swift */,
+				C4FA40AD1DC3D704007615DB /* DataClasses.swift */,
 				C4FA40AE1DC3D704007615DB /* DataStore.swift */,
 				C4FA40AF1DC3D704007615DB /* Secrets.swift */,
 				C4FA40AA1DC3D5A5007615DB /* ViewController.swift */,
-				C4FA40A61DC3CCBF007615DB /* DailyViewController.swift */,
-				C4A394731DC3A03100594894 /* DailyForecastViewController.swift */,
 				8F07727B1DC2FDEF0061A640 /* Assets.xcassets */,
 				8F07727D1DC2FDEF0061A640 /* LaunchScreen.storyboard */,
 				8F0772801DC2FDEF0061A640 /* Info.plist */,
@@ -170,9 +164,7 @@
 				C4FA40B01DC3D704007615DB /* DarkSkyAPIClient.swift in Sources */,
 				8F0772751DC2FDEF0061A640 /* AppDelegate.swift in Sources */,
 				C4FA40AB1DC3D5A5007615DB /* ViewController.swift in Sources */,
-				C4A394741DC3A03100594894 /* DailyForecastViewController.swift in Sources */,
-				C4FA40B11DC3D704007615DB /* Data.swift in Sources */,
-				C4FA40A71DC3CCBF007615DB /* DailyViewController.swift in Sources */,
+				C4FA40B11DC3D704007615DB /* DataClasses.swift in Sources */,
 				C4FA40B31DC3D704007615DB /* Secrets.swift in Sources */,
 				C4FF7E501DC7C260000435E5 /* DailyTableViewController.swift in Sources */,
 			);

@@ -14,8 +14,8 @@ class TabBarController: UITabBarController {
     super.viewDidLoad()
     
     let todayVC = TodayViewController()
-    let dailyVC = DailyTableViewController()
-    let hourlyVC = HourlyTableViewController()
+    let dailyVC = DailyView()
+    let hourlyVC = HourlyView()
     
     todayVC.tabBarItem = UITabBarItem(title: "Today", image: #imageLiteral(resourceName: "snore"), selectedImage: nil)
     dailyVC.tabBarItem = UITabBarItem(title: "Daily", image: #imageLiteral(resourceName: "jiggly"), selectedImage: nil)

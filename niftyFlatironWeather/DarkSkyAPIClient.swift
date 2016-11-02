@@ -16,7 +16,7 @@ class DarkSkyAPIClient {
     let longitude = -122.406417
     
     // https://api.darksky.net/forecast/[key]/[latitude],[longitude]
-    let url = URL(string: "https://api.darksky.net/forecast/\(darkSkySecretKey)/\(latitude),\(longitude)")
+    let url = URL(string: "https://api.darksky.net/forecast/\(Secrets.darkSkySecretKey)/\(latitude),\(longitude)")
     
     print(url)
     
